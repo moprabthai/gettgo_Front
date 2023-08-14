@@ -1,0 +1,116 @@
+/* @import './base.css'; */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+
+#app {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+
+
+/* @media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+} */
+
+/* @media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
+
+body {
+
+  /* font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'Sarabun', sans-serif;
+    /* font-family: 'Chakra Petch', sans-serif; */
+    
+     /* font-family: 'Mitr', sans-serif; */
+}
+.bg_white{
+  background: #ffffff !important;
+  color: #122e43;
+}
+.bg_dark{
+  background: #122e43 !important;
+  color: #ffffff;
+}
+.bg_pink{
+  background: #e91681 !important;
+  color: #ffffff;
+}
+thead tr:first-child th{
+  background-color: #335e80 !important;
+}
+
+.general-header {
+  padding-top: 30px;
+}
+.card-title {
+  margin-top: -20px;
+  padding: 5px 10px;
+  color: #fff !important;
+  /* position: relative; */
+  border-radius: 5px;
+  background-color: #e91681 !important;
+}
+/* Button */
+.btn_search{
+  color: #fff!important;
+  background-color: #225780!important;
+}
+.btn_clear{
+  color: #225780!important;
+  background-color: #f1f1f1!important;
+}
+.btn_add{
+  color: #fff!important;
+  background-color: #e91681!important;
+  
+}
+.btn_del{
+  color: #fff!important;
+  background-color: #e91644!important;
+}
+.btn_excel{
+  color: #fff!important;
+  background-color: #0B7F41!important;
+}
+.req-red{
+  color: red;
+}
+.text-red{
+  color: red;
+  font-size: 0.6rem;
+  margin: 0;
+}
+.bg-mypink {
+  background:#e91681!important;
+}
+.bg-mydrak {
+  background: #225780!important;
+}
+.bg-mygray {
+  background: #6464649f!important;
+}
+.text-mypink {
+  color:#e91681!important;
+}
+.text-mydrak{
+  color: #225780!important;
+}
